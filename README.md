@@ -4,10 +4,10 @@ LiveTranslate detects foreign language text from a video feed, and displays the 
 
 Demo
 ====
-![Before being LiveTranslated](https://i.ytimg.com/vi/LecTD526JD0/0.jpg?time=1410897238848)
-![After being LiveTranslated](https://i.ytimg.com/vi/LecTD526JD0/0.jpg?time=1410897424149)
+![Example from our HackRice submission video](http://gfycat.com/MajesticAccomplishedIndiancow)
+![Example from our HackRice submission video](http://zippy.gfycat.com/MajesticAccomplishedIndiancow.gif)
 
-http://youtu.be/LecTD526JD0
+Video: http://youtu.be/LecTD526JD0
 
 Setup
 =====
