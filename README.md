@@ -13,7 +13,7 @@ Setup
 4. Download and Install tesseract-ocr, desired languages, and the python libraries
     * https://code.google.com/p/tesseract-ocr/downloads/list
     * https://code.google.com/p/python-tesseract/downloads/list
-<!--5. Follow this->http://blogs.msdn.com/b/translation/p/gettingstarted1.aspx-->
+5. Follow this->http://blogs.msdn.com/b/translation/p/gettingstarted1.aspx
 6. Download azure_translate_api.py from github 
     * simply put it in the same directory as the main file
     * https://github.com/neerajcse/python_azure_translate_api/blob/master/azure_translate_api.py
