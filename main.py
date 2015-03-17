@@ -1,3 +1,7 @@
+# LiveTranslate was the result of roughly 24 hours of hackathon coding. 
+# It is likely rife with bugs, lacks good style, and could generally be improved in many aspects.
+# However, it works! 
+
 import cv2
 import numpy as np
 import tesseract
@@ -18,7 +22,8 @@ def updateWindow(videoCapture, frame):
 def updateTranslation(q, text):
     print 'TRANSLATING'
     client = azure_translate_api.MicrosoftTranslatorClient('HackRiceLiveTranslate', 'kD8XE7E0k/8YL7hekgFbuB3awbjagKuF1xG1aEpm220=')
-    q.put(client.TranslateText(text, 'en', 'es'))
+  # This API key has been disabled
+ q.put(client.TranslateText(text, 'en', 'es')) # Edit the languages here to change the "to" and "from" languages, respectively
 
 def updateOCR(frame):
     api = tesseract.TessBaseAPI()
