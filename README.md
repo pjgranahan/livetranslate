@@ -28,3 +28,7 @@ Usage
 2. (Optional) Change the source and target translation languages 
 3. Hold up (highly-contrasting) text and have it translated!
 4. ESC to quit.
+
+Disclaimer
+==========
+We made this in 24 hours at Hack Rice 2014. Much of the code was written whilst simultaneously learning new frameworks, debating how to use such frameworks, and not sleeping. The code is likely buggy, and certainly needs some style improvements!
