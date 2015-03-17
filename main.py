@@ -14,15 +14,13 @@ import Queue
 
 WHITELIST = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
 
-
 def updateWindow(videoCapture, frame):
     cv2.imshow("preview", frame)
     return videoCapture.read() # rval, frame
 
 def updateTranslation(q, text):
     print 'TRANSLATING'
-    client = azure_translate_api.MicrosoftTranslatorClient('HackRiceLiveTranslate', 'kD8XE7E0k/8YL7hekgFbuB3awbjagKuF1xG1aEpm220=')
-  # This API key has been disabled
+    client = azure_translate_api.MicrosoftTranslatorClient('INSERT_YOUR_OWN_APPLICATION_NAME', 'INSERT_YOUR_OWN_API_KEY')
  q.put(client.TranslateText(text, 'en', 'es')) # Edit the languages here to change the "to" and "from" languages, respectively
 
 def updateOCR(frame):
